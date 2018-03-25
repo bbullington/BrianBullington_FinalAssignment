@@ -94,8 +94,8 @@
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="442">
-                <caret line="26" column="0" lean-forward="true" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
+              <first_editor relative-caret-position="0">
+                <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
                 <folding />
               </first_editor>
               <second_editor />
@@ -218,46 +218,6 @@
             <path>
               <item name="BBMovies" type="b2602c69:ProjectViewProjectNode" />
               <item name="BBMovies" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="BBMovies" type="b2602c69:ProjectViewProjectNode" />
-              <item name="BBMovies" type="462c0819:PsiDirectoryNode" />
-              <item name="app_api" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="BBMovies" type="b2602c69:ProjectViewProjectNode" />
-              <item name="BBMovies" type="462c0819:PsiDirectoryNode" />
-              <item name="app_api" type="462c0819:PsiDirectoryNode" />
-              <item name="models" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="BBMovies" type="b2602c69:ProjectViewProjectNode" />
-              <item name="BBMovies" type="462c0819:PsiDirectoryNode" />
-              <item name="app_api" type="462c0819:PsiDirectoryNode" />
-              <item name="routes" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="BBMovies" type="b2602c69:ProjectViewProjectNode" />
-              <item name="BBMovies" type="462c0819:PsiDirectoryNode" />
-              <item name="app_server" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="BBMovies" type="b2602c69:ProjectViewProjectNode" />
-              <item name="BBMovies" type="462c0819:PsiDirectoryNode" />
-              <item name="app_server" type="462c0819:PsiDirectoryNode" />
-              <item name="controllers" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="BBMovies" type="b2602c69:ProjectViewProjectNode" />
-              <item name="BBMovies" type="462c0819:PsiDirectoryNode" />
-              <item name="app_server" type="462c0819:PsiDirectoryNode" />
-              <item name="routes" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="BBMovies" type="b2602c69:ProjectViewProjectNode" />
-              <item name="BBMovies" type="462c0819:PsiDirectoryNode" />
-              <item name="app_server" type="462c0819:PsiDirectoryNode" />
-              <item name="views" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -393,12 +353,12 @@
       <workItem from="1521601417970" duration="248000" />
       <workItem from="1521601860323" duration="28648000" />
       <workItem from="1521934641820" duration="15225000" />
-      <workItem from="1522011900178" duration="245000" />
+      <workItem from="1522011900178" duration="885000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="49256000" />
+    <option name="totallyTimeSpent" value="49896000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-1851" y="-194" width="1182" height="733" extended-state="0" />
@@ -749,8 +709,8 @@
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="442">
-            <caret line="26" column="0" lean-forward="true" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
+          <first_editor relative-caret-position="0">
+            <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
             <folding />
           </first_editor>
           <second_editor />
