@@ -1,0 +1,30 @@
+doctype html
+html(ng-app='app')
+  head
+    meta(name='viewport', content='width=device-width, initial-scale=1.0')
+    title= title
+    link(rel='stylesheet', href='/bootstrap/css/bootstrap.min.css')
+    link(rel='stylesheet', href='/stylesheets/style.css')
+    script(src='/angular/angular.min.js')
+  body
+    .navbar.navbar-default.navbar-fixed-top
+      .container
+        .navbar-header
+          a.navbar-brand(href='/') Login
+          a.navbar-brand(href='/myMovies') My Movies
+          a.navbar-brand(href='/allMovies') All Movies
+          a.navbar-brand(href='/api/userMovies/5ab34467391a2ef9b3654159') api-Brian's
+          a.navbar-brand(href='/api/movieList') api-allmovies
+          a.navbar-brand(href='/api/allUsers') api-alluser
+          button.navbar-toggle(type='button', data-toggle='collapse', data-target='#navbar-main')
+            span.icon-bar
+            span.icon-bar
+            span.icon-bar
+
+    .container
+      block content
+
+    script(src='/angular/main.js')
+    script(src='/javascripts/jquery-1.11.1.min.js')
+    script(src='/bootstrap/js/bootstrap.min.js')
+      script (src='/bootstrap')

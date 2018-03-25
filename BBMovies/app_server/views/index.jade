@@ -1,0 +1,28 @@
+extends layout
+
+//block content
+//  h1= title
+//  p Welcome to #{title}
+
+extends layout
+
+block content
+  .row.page-header
+    .col-lg-12
+      h1= title
+  .row
+    .col-xs-12.col-md-6
+      form.form-horizontal(action="/myMovies", method="get", role="form")
+        .form-group
+          label.col-xs-10.col-sm-2.control-label(for="name") User Name
+          .col-xs-12.col-sm-10
+            input#name.form-control(name="name")
+
+        .form-group
+          label.col-xs-10.col-sm-2.control-label Password
+          .col-xs-12.col-sm-10
+            input#pw.form-control(type= 'password' name="name")
+
+  //a.button.btn.btn-default.pull-bottom(href="/myMovies") Login
+  a.button.btn.btn-default.pull-bottom(href="/myMovies") See Brian's Movies
+  //a.button.btn.btn-default.pull-bottom(href="/myMovies") See Karen's Movies

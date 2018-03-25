@@ -1,0 +1,32 @@
+extends layout
+
+
+block content
+  #banner.page-header
+    .row
+      .col-lg-6
+        //h1= pageHeader.title
+        h1= movieCollection.UserName + "'s watch list"
+        small &nbsp;#{pageHeader.strapline}
+
+  .row
+    .col-xs-12.col-sm-8
+      .row.list-group
+        each movie in movieCollection.watchlist
+
+          .col-xs-12.list-group-item
+            h4
+              a(href=movie.url target='blank')= movie.id + ': ' + movie.title
+              small &nbsp;
+              //span.badge.pull-right.badge-default= note.Password + " is my password, but don't tell"
+            //p.preview= 'Title= '+ note.Notes.Title.substr(0,100)
+            //p.contents= 'Contents= ' + note.Notes.Contents
+
+
+
+
+    .col-xs-12.col-sm-4
+      p.lead= sidebar
+        a(href='https://buildablockbuster.wordpress.com/' target='blank')= 'Build a better block buster!'
+
+
